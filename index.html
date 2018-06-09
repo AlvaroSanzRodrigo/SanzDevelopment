@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/smoothscroll.js"></script>
+
+    <title>SanzCorp</title>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+<!-- nav -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light " id="navbar">
+    <div class="container-fluid">
+
+
+    <a class="navbar-brand" href="#">Sanz Corp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#capa">Capacities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contac">Contact</a>
+            </li>
+
+        </ul>
+    </div>
+    </div>
+</nav>
+
+    <div class="container-fluid" id="home" style="padding-top: 10%">
+        <div class="card">
+            <div class="card-header">
+                Alvaro Sanz Rodrigo - App Developer.
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Junior App developer with fresh energy and willing to work, learn and have fun programing!</h5>
+                <p class="card-text">I'm based in Madrid, Spain, but will move for temporary works, here i left my pages, and you can contact me on the Contact section</p>
+                <div class="container" style="width: 25%; padding-bottom: 5%"><img src="media/multiplataforma.png" height="250" width="400" class="card-img" alt=""></div>
+
+                <a href="https://github.com/AlvaroSanzRodrigo" class="btn btn-primary">GitHub <i class="fab fa-github"></i></a>
+                <a href="https://stackoverflow.com/users/9703084/alvaro-sanz-rodrigo" class="btn btn-primary">StackOverflow <i class="fab fa-stack-overflow"></i></a>
+                <a href="https://alvarosanzrodrigo.github.io/" class="btn btn-primary">Curriculum Vitae <i class="far fa-address-card"></i></a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- capacities -->
+
+
+
+    <div class="container-fluid" id="capa" style="padding-top: 10%">
+        <div class="card-deck">
+            <div class="card">
+                <video autoplay="autoplay" muted="muted" loop="loop" preload="auto" class="card-img-top">
+                    <source type="video/mp4" src="media/Behind-the-screen.mp4">
+                </video>
+                <div class="card-body">
+                    <h5 class="card-title">Swift</h5>
+                    <p class="card-text">medium experienced Swift developer, I love programming for iOs</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <video autoplay="autoplay" muted="muted" loop="loop" preload="auto" class="card-img-top">
+                    <source type="video/mp4" src="media/Blurred%20Video%20of%20Scripts%20Being%20Typed.mp4">
+                </video>
+                <div class="card-body">
+                    <h5 class="card-title">Java</h5>
+                    <p class="card-text">I'm a Junior java developer, but competent enough to success! </p>
+
+                </div>
+            </div>
+            <div class="card">
+                <video autoplay="autoplay" muted="muted" loop="loop" preload="auto" class="card-img-top">
+                    <source type="video/mp4" src="media/Home_work.mp4">
+                </video>
+                <div class="card-body">
+                    <h5 class="card-title">Web</h5>
+                    <p class="card-text">HTML + CSS, using frameworks and libraries such Vue, Bootstrap, React, but not
+                        really my strong card.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="about" style="padding-top: 15%">
+        <div class="card">
+        <div class="card-body">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" height="400" width="810" src="media/201852513621_1.jpg"
+                         alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>U-Tad</h5>
+                        <p>I started studying app development here, where I could learn my skills. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" height="400" width="810"
+                         src="media/computer_computer_code_screen_monitor_computer_screen_programming_html_css-596253.jpg"
+                         alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Home</h5>
+                        <p>Programming is a passion more than a job, so, I love doing it just for fun.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" height="400" width="810"
+                         src="media/imac_computer_apple_inc_technology_modern_white_design_display-924921.jpg"
+                         alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>AppReview</h5>
+                        <p><a href="https://github.com/AlvaroSanzRodrigo/reviewApp">I'm currently developing a simple
+                            review app called ReviewApp</a></p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </div>
+        </div>
+
+        <div class="container-fluid" id="contac" style="padding-bottom: 10%; padding-top: 10%">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="descriptionForm">Small description</label>
+                        <input type="text" class="form-control" id="descriptionForm" placeholder="Enter description">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Discipline</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Select an option</option>
+                            <option>Swift</option>
+                            <option>Java</option>
+                            <option>Web</option>
+                            <option>Databases</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <label>I will answer you on your email as soon as possible</label> <br>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br><br><br><br><br>
+</body>
+</html>
